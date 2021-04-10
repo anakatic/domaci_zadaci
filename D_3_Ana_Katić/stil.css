@@ -1,0 +1,18 @@
+p{
+    text-align: justify;
+}
+
+img {
+    width: 250px; 
+    height: 280px;
+}
+ h2{
+     text-align: center
+ }
+
+ .drugaTabela tr{
+     border: none;
+ }
+ .drugaTabela th {
+     text-align: left;
+ }

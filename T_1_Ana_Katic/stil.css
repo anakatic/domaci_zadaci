@@ -1,0 +1,63 @@
+a:hover{
+    background-color: orange;
+}
+a{
+    color: black;
+    text-decoration-line: none;
+}
+
+table{
+    text-align: center;
+    
+}
+
+span{
+    text-decoration-line: underline;
+}
+
+.span{
+    color: orange;
+}
+
+.grad{
+    color: orange;
+}
+
+.qa{
+    color: green;
+}
+
+h5{
+    color: orange;
+}
+
+.link{
+    color: green;
+}
+
+.link:hover{
+    background-color: white;
+}
+
+.link:visited{
+    color: red;
+}
+
+.centrirano{
+    text-align: center;
+}
+
+.uokvireno{
+    border-style: dotted;
+    border-color: green;
+}
+
+.size{
+    width: 150px;
+    height: 100px;
+}
+
+.prijava{
+    text-decoration-line: underline;
+    color: purple;
+}

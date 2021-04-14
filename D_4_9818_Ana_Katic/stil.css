@@ -1,0 +1,45 @@
+section{
+    position: absolute;
+}
+
+div{
+    width: 350px;
+    position: relative;
+    float: left;
+}
+
+h3{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    position: relative;
+    left: 25px;
+    width: 270px;
+    height: 160px;
+    margin: 10px;
+}
+
+p{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+}
+
+aside{
+    position: absolute;
+    top: 300px;
+    
+}
+
+aside p{
+    text-align: justify;
+}
+
+
+
+
+

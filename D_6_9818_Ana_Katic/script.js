@@ -27,9 +27,9 @@ Knjiga ima n poglavlja (broj n unosite sami).
 Čitalac je prvog dana pročitao a poglavlja, a drugog dana dva poglavlja više nego prvog dana.
 Na osnovu dodeljenih vrednosti, u konzoli ispisati koliko poglavlja je preostalo čitaocu da pročita do kraja knjige. Pretpostaviti da su vrednosti promenljivih n i a ispravno unete.*/
 
-let n = 20;
+let n = 40;
 let a = 12;
-let ostalaPoglavlja = n - a -2;
+let ostalaPoglavlja = n - a - (a + 2);
 console.log ("Broj poglavlja koji je ostao citaocu da procita je",ostalaPoglavlja);
 
 

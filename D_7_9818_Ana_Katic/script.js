@@ -13,10 +13,11 @@ if (n <= maks){
     document.body.innerHTML = `<p> <font color="green"> DA </font> <p>`;
 }
 else if (n > maks){
-    document.body.innerHTML +=`<p> <font color="red"> NE </font> </p>`;
+    document.body.innerHTML +=`<p style = "color: red;"> NE  </p>`;
+    let visak = (n - maks);
+    document.body.innerHTML += `<span style = "color: red;"> ${visak} </span> ljudi treba da napusti lokal`
 }
-let visak = (n - maks);
-    document.body.innerHTML += `<p> <font color="red"> ${visak} </font> ljudi treba da napusti lokal </p>`
+
 
 
 

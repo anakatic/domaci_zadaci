@@ -5,7 +5,7 @@ Ukoliko je ispis NE, crvenom bojom ispisati i koliko ljudi je potrebno da napust
 let v = 90;
 let n = 36;
 let min = 3;
-let maks = (90 / 3);
+let maks = (90 / min);
 
 console.log (maks);
 if (n <= maks){

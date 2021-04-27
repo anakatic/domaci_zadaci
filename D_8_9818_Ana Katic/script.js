@@ -12,7 +12,7 @@ if (dan == 0){
     if(time < vp){
         console.log("Zatvoreno je");
     }
-    else if(time > vk){
+    else if(time >= vk){
         console.log("Zatvoreno je");
 
     }
@@ -25,7 +25,7 @@ else if(dan == 6){
     if(time < vp){
         console.log("Zatvoreno je");
     }
-    else if(time > vk){
+    else if(time >= vk){
         console.log("Zatvoreno je");
 
     }
@@ -35,10 +35,10 @@ else if(dan == 6){
 }
 else{
     console.log("Radni dan je");
-    if(time <rp){
+    if(time < rp){
         console.log("Zatvoreno je");
     }
-    else if(time > rk){
+    else if(time >= rk){
         console.log("Zatvoreno je");
 
     }

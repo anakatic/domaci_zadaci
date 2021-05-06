@@ -35,9 +35,9 @@ else if (krajSatLek1 == pocSatLek2){
 }
 else {
     document.body.innerHTML += `<p style= "color:yellow;"> Vreme lekara se poklapa. </p>`;
-    var zRad = (krajSatLek1 * 60 + krajMinLek1) - (pocSatLek2 * 60 + pocMinLek2);
-    var zRadH = Math.floor(zRad / 60);
-    var zRadM = zRad % 60;
+    szRad = (krajSatLek1 * 60 + krajMinLek1) - (pocSatLek2 * 60 + pocMinLek2);
+    zRadH = Math.floor(zRad / 60);
+    zRadM = zRad % 60;
     
     
 }

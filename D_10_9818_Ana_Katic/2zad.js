@@ -79,8 +79,13 @@ switch(m){
         console.log(kalkulator);
         break;
     case "d":
-        kalkulator = br1 / br2;
-        console.log(kalkulator);
+        if( br2 == 0){
+            console.log("Deljenje nije moguce.")
+        }
+        else{
+            kalkulator = br1 / br2;
+            console.log(kalkulator);
+        }
         break;
     case "s":
         kalkulator1 = br1 + br2;
@@ -118,6 +123,7 @@ switch(dan){
 //6.zadatak
 //Preuzeti redni broj meseca sa računara i ispisati koji je to mesec u godini.
 let mesec = datum.getMonth() + 1;
+let godina = datum.getFullYear();
 switch(mesec){
     case 1:
         console.log("Januar");
@@ -164,7 +170,12 @@ switch(mesec){
         console.log("31 dan");
         break;
     case 2:
-        console.log("28 dana");
+        if((godina % 4 == 0 && godina % 100 !=0) || (godina % 400 == 0)){
+            console.log("Mesec februar ima 29 dana.");
+        }
+        else{
+            console.log("Mesec februar ima 28 dana.");
+        }
         break;
     case 3:
         console.log("31 dan");

@@ -1,11 +1,11 @@
-let pocSatLek1 = 7;
-let pocMinLek1 = 14;
-let krajSatLek1 = 15;
-let krajMinLek1 = 15;
+let pocSatLek1 = 6;
+let pocMinLek1 = 0;
+let krajSatLek1 = 9;
+let krajMinLek1 = 00;
 
-let pocSatLek2 = 9;
+let pocSatLek2 = 7;
 let pocMinLek2 = 0;
-let krajSatLek2 = 15;
+let krajSatLek2 = 12;
 let krajMinLek2 = 0;
 
 let pmin1 = pocSatLek1 * 60 + pocMinLek1;
@@ -21,6 +21,9 @@ if (pocSatLek1 < pocSatLek2 && krajSatLek1 < krajSatLek2) {
 else if (pocSatLek1 < pocSatLek2 && pocSatLek2 < krajSatLek1 && krajSatLek1 < krajSatLek2) {
     zajed = kmin1 - pmin2;
 } 
+else if (pocSatLek2 < pocSatLek1 && krajSatLek2 < krajSatLek1) {
+    zajed = kmin2 - pmin1;
+} 
 else if (pocSatLek2 < pocSatLek1 && krajSatLek1 > krajSatLek2 && pocSatLek1 < krajSatLek2) {
     zajed = kmin1 - pmin1;
 } 
@@ -30,6 +33,10 @@ else if (pocSatLek1 > pocSatLek2 && krajSatLek1 < krajSatLek2){
 else if (pocSatLek1 < pocSatLek2 && krajSatLek2 < krajSatLek1) {
     zajed = kmin2 - pmin2;
 } 
+else if (pocSatLek2 < pocSatLek1 && krajSatLek2 > krajSatLek1) {
+    zajed = kmin1 - pmin1;
+} 
+
 else if (pocSatLek1 == pocSatLek2){
     if (krajSatLek1 < krajSatLek2){
     zajed = kmin1 - pmin1;

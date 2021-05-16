@@ -26,7 +26,7 @@ function sumaEl(niz){
         if(e % 2 == 0){
             suma += e;
         }
-    })
+    });
     return suma;
 }
 console.log("Suma elemenata niza sa parnim indeksom je "+ sumaEl(a));
@@ -42,7 +42,7 @@ function znak(niz){
                 
         }   
         console.log(`element: ${e}`);
-    })
+    });
     
     
 }

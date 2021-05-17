@@ -22,8 +22,8 @@ console.log("Indeks minimalnog elementa u nizu je: " + indeksMinEl(a));
 */
 function sumaEl(niz){
     let suma = 0;
-    niz.forEach(e => {
-        if(e % 2 == 0){
+    niz.forEach((e, i) => {
+        if(i % 2 == 0){
             suma += e;
         }
     });

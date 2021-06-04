@@ -47,7 +47,9 @@ request2.addEventListener("readystatechange", () => {
     if(request2.readyState === 4 && request2.status === 200){
         let data = JSON.parse(request2.responseText);
         data.forEach(user => {
-            console.log(user.address.city);     
+            let gradovi = [user.address.city];
+            let grad = [...new Set(gradovi)];
+            console.log(grad);            
         });
     }
     else if(request2.readyState === 4) {
@@ -79,3 +81,5 @@ request3.addEventListener("readystatechange", () => {
 
 request3.open("GET", "https://jsonplaceholder.typicode.com/users");
 request3.send();
+
+

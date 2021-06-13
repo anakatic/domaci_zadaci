@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    position: relative;
+    width: 600px;
+    height: 140px;
+    border: 1px darkblue dotted;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+#first, #second, #third{
+    color: blue;
+    font-weight: bold;
+}
+
+#inputTekst{
+    width: 371px;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    align-self: center;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    
+}
+
+table{
+    text-align: left;
+    border: 1px solid darkblue;
+    background-color: rgb(235, 235, 123);
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid darkblue;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    width: 190px;
+    height: 60px;
+    text-align: center;    
+}
